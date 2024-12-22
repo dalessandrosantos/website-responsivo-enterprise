@@ -101,6 +101,15 @@ nav ul a:hover::after {
     width: 100%;
 }
 
+/* menu mobile */
+
+nav .menu-icon {
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    display: none;
+}
+
 .banner {
     display: flex;
     justify-content: center;
@@ -213,6 +222,48 @@ nav ul a:hover::after {
     margin-top: -5px;
 }
 
-.depoimentos .card-item:hover .nome-user, .depoimentos .card-item:hover .depoimento-user, .depoimentos .card-item:hover .estrelas i {
+.depoimentos .card-item:hover .nome-user, 
+.depoimentos .card-item:hover .depoimento-user, 
+.depoimentos .card-item:hover .estrelas i {
     color: white;
+}
+
+/* clientes */
+
+.clientes h3, 
+.clientes p {
+    text-align: center;
+}
+
+.clientes .container div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* footer */
+
+.footer {
+    background-color: #4f9cf9;
+    text-align: center;
+}
+
+.footer i {
+    color: #3580db;
+    font-size: 19px;
+    background-color: white;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.footer p {
+    margin-top: 10px;
+    color: white;
+}
+
+/* menu moble */
+
+@media(max-width: 830px) {
+    
 }
