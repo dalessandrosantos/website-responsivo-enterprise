@@ -60,7 +60,7 @@ p{
 }
 
 header {
-    background-image: url('../img/background-home.jpg');
+    background-image: url('../img/background-sobre1.jpg');
 
     background-position: center;
     background-size: cover;
@@ -266,6 +266,33 @@ nav .close-icon {
 .footer p {
     margin-top: 10px;
     color: white;
+}
+
+/* Página sobre */
+
+.sobre .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre .sobre-text {
+    width: 50%;
+    padding-right: 40px;
+}
+
+.sobre .sobre-text p {
+    margin: 18px 0;
+    color: #000000a6;
+}
+
+.sobre .sobre-img {
+    width: 50%;
+}
+
+.sobre .sobre-img img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 /* menu moble */
