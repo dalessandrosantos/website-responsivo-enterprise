@@ -60,8 +60,6 @@ p{
 }
 
 header {
-    background-image: url('../img/background-sobre1.jpg');
-
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -294,6 +292,8 @@ nav .close-icon {
     width: 100%;
     border-radius: 10px;
 }
+
+/* Página serviços */
 
 /* menu moble */
 
