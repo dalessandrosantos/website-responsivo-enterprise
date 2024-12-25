@@ -10,12 +10,12 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--Link css -->
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Sobre | Website responsivo enterprise</title>
+    <title>Contato | Website responsivo enterprise</title>
 </head>
 
 <body>
     <!-- header -->
-    <header style="background-image: url('img/background-sobre1.jpg');">
+    <header style="background-image: url('img/background-contacto.jpg');">
         <!-- container -->
         <div class="container">
             <nav>
@@ -32,34 +32,56 @@
                     </div>
                 </ul>
                 <div class="menu-icon" onclick="openMenu()">
-                   <i class="fa fa-bars"></i> 
+                    <i class="fa fa-bars"></i>
                 </div>
             </nav>
             <section class="banner">
                 <div class="banner-text">
-                    <h1>Sobre</h1>
+                    <h1>Nos contate</h1>
                 </div>
-
             </section>
         </div>
         <!-- end container -->
     </header>
     <!-- and header -->
-     
-    <section class="sobre">
-        <section class="container">
-            <div class="sobre-text">
-                <h3>Estamos nesse mercado mais de 8 anos</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis qui itaque consequuntur. Repudiandae, deleniti culpa. Rerum commodi voluptatibus ipsa molestiae exercitationem, assumenda odio! Reprehenderit earum, totam consequuntur excepturi doloremque nesciunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus quam quaerat voluptates dolor fuga ipsa error veritatis natus iste nesciunt quasi ratione eveniet velit ullam tempora nemo, nam dolorum ut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad natus earum adipisci qui animi, quae ullam aliquid nulla quisquam reiciendis commodi temporibus! Impedit magnam quas non quia voluptate ex nisi?</p>
-            <a href="contato.html" class="btn  btn-animate-btn">Entrar em contato</a>
+    <section class="contato">
+        <di class="container">
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220896.07339571996!2d-51.34194854455053!3d-30.108470168466035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95199cd2566acb1d%3A0x603111a89f87e91f!2sPorto%20Alegre%2C%20RS!5e0!3m2!1spt-BR!2sbr!4v1735162681915!5m2!1spt-BR!2sbr"
+                    width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="sobre-img">
-                <img src="img/sobre.jpg" alt="Sobre">
+            <div class="contato-info">
+                <div class="left-side">
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p>Porto Alegre-RS</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p>dalessandrosantos83@gmail.com</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>+2439 548 54895454</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>+2439 548 9837632</p>
+                    </div>
+                </div>
+            <div class="right-side">
+                <form action="">
+                    <input type="text" placeholder="Nome" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="text" placeholder="Assunto" required>
+                    <textarea cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                    <button class="btn">Enviar Mensagem</button>
+                </form>
             </div>
-        </section>
     </section>
-        
-     <!-- footer -->
+    <!-- footer -->
     <footer class="footer">
         <div class="container">
             <div class="links">
@@ -74,4 +96,5 @@
     <!-- end footer -->
     <script src="js/main.js"></script>
 </body>
+
 </html>
