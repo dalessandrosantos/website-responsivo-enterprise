@@ -117,6 +117,7 @@ nav .close-icon {
 .banner {
     display: flex;
     justify-content: center;
+    height: 100vh;
 }
 
 .banner-text {
@@ -126,7 +127,7 @@ nav .close-icon {
 }
 
 .banner .banner-text h1 {
-    font-size: 96px;
+    font-size: 98px;
     color: white;
 }
 
@@ -150,11 +151,13 @@ nav .close-icon {
 }
 
 .faca-mais .faca-mais-text h3 {
-    font-size: 56px;
+    font-size: 58px;
 }
 
 .faca-mais .faca-mais-text p {
     margin: 5px 0 10px 0;
+    margin-top: 40px;
+    text-align: justify;
 }
 
 .faca-mais .faca-mais-img {
@@ -169,6 +172,7 @@ nav .close-icon {
 
 .depoimentos h3{
     text-align: center;
+    font-size: 48px;
 }
 
 .depoimentos p {
@@ -179,6 +183,7 @@ nav .close-icon {
 .cards {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .depoimentos .card-item{
@@ -243,6 +248,7 @@ nav .close-icon {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 /* footer */
@@ -485,4 +491,86 @@ nav .close-icon {
     right: 28px;
     cursor:pointer;
    }
+
+   /* Página home responsivo */
+
+   .faca-mais .faca-mais-text {
+    margin-top: 10px;
+    padding: 0 20px;
+    order: 1;
+   }
+
+   .faca-mais .container {
+    flex-direction: column;
+   }
+
+   .faca-mais .faca-mais-text h3 {
+    font-size: 42px;
+   }
+
+   .faca-mais .faca-mais-text,
+   .faca-mais .faca-mais-img {
+    width: 100%;
+   }
+
+   /* banner responsivo */
+   .banner .banner-text {
+    padding: 0;
+    margin: 80px;
+   }
+
+   .banner .banner-text h1 {
+    font-size: 78px;
+   }
+
+   .banner .banner-text p {
+    font-size: 15px;
+   }
+
+   .depoimentos .card-item {
+    width: 100%;
+   }
+
+   /* Página sobre responsivo */
+   .sobre .container {
+    flex-direction: column-reverse;
+   }
+
+   .sobre .sobre-text,
+   .sobre .sobre-img {
+    width: 100%;
+   }
+
+   .sobre .sobre-text {
+    margin-top: 40px;
+   }
+
+   .sobre .sobre-text h3 {
+    font-size: 42px;
+   }
+
+
+   /* Página contato responsivo */
+   .contato .contato-info {
+    flex-direction: column-reverse;
+   }
+
+   .contato-info.right-side,
+   .contato-info .left-side {
+    width: 100%;
+   }
+
+   .contato-info .right-side {
+    margin-bottom: 39px;
+   }
+}
+
+@media (max-width: 500px) {
+    .banner .banner-text h1 {
+        font-size: 52px;
+    }
+
+    .faca-mais .faca-mais-text h3 {
+      font-size: 40px;  
+    }
 }
